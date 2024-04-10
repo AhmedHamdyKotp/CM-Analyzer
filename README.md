@@ -1,4 +1,4 @@
-![Banner Alt Text](Gemini_Generated_Image (8).jpeg)
+![CryptoVue Banner](/images/cryptovue-banner.png)
 
 # CryptoVue
 
