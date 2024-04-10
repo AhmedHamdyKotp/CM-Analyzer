@@ -1,3 +1,5 @@
+![Banner Alt Text](Gemini_Generated_Image (8).jpeg)
+
 # CryptoVue
 
 **CryptoVue is a powerful crypto volume analysis tool designed to empower traders with data-driven insights.**
