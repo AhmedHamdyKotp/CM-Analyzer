@@ -1,4 +1,4 @@
-![CryptoVue Banner](/Gemini_Generated_Image (8).jpeg)
+![CryptoVue Banner](CM-Analyzer/Gemini_Generated_Image (8).jpeg)
 
 # CryptoVue
 
