@@ -1,42 +1,57 @@
-# CM-Analyzer
-# [Project Name]
+# CryptoVue
 
-**[Provide a 1-2 sentence description of your crypto volume analysis tool.]**
+**CryptoVue is a powerful crypto volume analysis tool designed to empower traders with data-driven insights.**
 
 ## Installation
 
-* **Prerequisites:** List any required software or dependencies (e.g., Python, Node.js, specific libraries).
-* **Instructions:** Provide clear, step-by-step installation instructions (e.g., cloning from GitHub, using pip or npm).
+* **Prerequisites:** 
+    * Python 3.7 or later
+    * pip
+    * Libraries: NumPy, Pandas, Matplotlib (list any others)
+
+* **Instructions:**
+    1. `git clone https://github.com/yourusername/CryptoVue.git`
+    2. `cd CryptoVue`
+    3. `pip install -r requirements.txt`
 
 ## Usage
 
-* **Examples:** Show basic commands or code snippets demonstrating core functionalities.
-* **Parameters/Options:**  Explain available command-line arguments or configuration options (if applicable).
-* **Visualizations:** If your tool generates charts or graphs, describe the output formats and how to interpret them.
+* **Examples:**
+    ```python
+    python main.py --ticker BTCUSDT --exchange binance --interval 1h
+    ```
+
+* **Parameters/Options:**
+    * `--ticker`:  Specify the cryptocurrency ticker symbol (e.g., BTCUSDT).
+    * `--exchange`:  Choose a supported exchange (e.g., binance, coinbase).
+    * `--interval`:  Set the timeframe for analysis (e.g., 1h, 4h, 1d).
 
 ## Features
 
-* [List key features in bullet points.]
-* [Briefly describe how each feature aids in crypto volume analysis.]
+* **Volume Spike Detection:** Identifies unusual surges in trading volume, potentially signaling significant market events.
+* **On-Balance Volume (OBV) Analysis:**  Calculates OBV and visualizes the trend to help confirm price movements.
+* **Volume-Weighted Moving Average (VWMA):** Provides a volume-weighted moving average to smooth out price fluctuations and identify potential trend direction.  
 
 ## Support
 
-* **Bug Reports:** Specify the process for reporting issues (e.g., open an issue on GitHub).
-* **Feature Requests:** How can users suggest new features?
-* **Contact:** If you're open to it, provide an email or other method for communication.
+* **Bug Reports:** Please open an issue on the GitHub repository.
+* **Feature Requests:**  Submit your ideas on the project's discussion board. 
+* **Contact:**  [your_email@example.com] 
 
 ## Roadmap
 
-* [Outline any major planned features or upcoming milestones.]
+* Support for additional exchanges
+* Customizable technical indicators
+* Real-time volume alerts
 
 ## Contributing
 
-* [If accepting contributions, provide guidelines and a code of conduct.]
+We welcome contributions! See our CONTRIBUTING.md for guidelines.
 
 ## License
 
-* [Specify the license under which your project is released (e.g., MIT License, Apache 2.0, etc.)] 
+MIT License
 
 ## Project Status
 
-* [Indicate the current stage of development  (e.g., alpha, beta, stable production).]
+Beta
